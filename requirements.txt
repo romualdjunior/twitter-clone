@@ -5,4 +5,3 @@ djangorestframework
 django-crispy-forms
 whitenoise
 crispy-bootstrap4
-pysqlite
