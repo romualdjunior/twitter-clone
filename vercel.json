@@ -1,6 +1,7 @@
 {
   "version": 2,
   "name": "twitter-clone",
+
   "builds": [
     {
       "src": "django_project/wsgi.py",
