@@ -16,5 +16,6 @@
         "Access-Control-Allow-Origin": "*"
       }
     }
-  ]
+  ],
+  "outputDirectory": "build"
 }
