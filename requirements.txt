@@ -2,3 +2,4 @@ Pillow
 pytz
 django
 djangorestframework
+django-crispy-forms
