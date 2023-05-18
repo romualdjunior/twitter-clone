@@ -4,7 +4,7 @@
   "builds": [
     {
       "src": "django_project/wsgi.py",
-      "use": "@natanffs/vercel-python-wsgi"
+      "use": "@ardnt/vercel-python-wsgi"
     }
   ],
   "routes": [
