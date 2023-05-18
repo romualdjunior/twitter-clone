@@ -1,3 +1,6 @@
 Pillow
 pytz
 Django
+djangorestframework
+django-crispy-forms
+whitenoise
