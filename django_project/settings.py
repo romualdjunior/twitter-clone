@@ -25,7 +25,7 @@ SECRET_KEY = "*n*f0zqlu+cgn&m*sd3^qkz9b=nw6db(tfo$156o9ag-%2f_eq"
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["*", "https://twitter-clone-app-imwox.ondigitalocean.app"]
+ALLOWED_HOSTS = ["*", "https://twitter-clone-app-9hnyp.ondigitalocean.app"]
 
 
 # Application definition
@@ -53,7 +53,13 @@ MIDDLEWARE = [
     "django.contrib.auth.middleware.AuthenticationMiddleware",
     "django.contrib.messages.middleware.MessageMiddleware",
     "django.middleware.clickjacking.XFrameOptionsMiddleware",
+    "corsheaders.middleware.CorsMiddleware",
 ]
+
+CSRF_TRUSTED_ORIGINS = ["https://twitter-clone-app-9hnyp.ondigitalocean.app/"]
+
+
+CORS_ALLOW_ALL_ORIGINS = True
 
 ROOT_URLCONF = "django_project.urls"
 

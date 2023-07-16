@@ -5,4 +5,5 @@ djangorestframework
 django-crispy-forms
 whitenoise
 crispy-bootstrap4
+django-cors-headers
 # pysqlite
